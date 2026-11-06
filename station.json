@@ -1,0 +1,33 @@
+{
+ "format": "myradio/station-1",
+ "name": "よみラジオ",
+ "description": "ゲーム・情報系・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
+ "tagline": "AI・ゲーム 朝のニュース",
+ "logo": "logo.svg",
+ "url": "https://yuuki-aoyomi.github.io/yomi-radio/",
+ "repo": "https://github.com/yuuki-aoyomi/yomi-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:10",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです"
+ },
+ "credits": [
+  "試聴用音声：Microsoft Haruka"
+ ],
+ "caster": "声：Microsoft Haruka（試聴用）",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "weather": true
+}
